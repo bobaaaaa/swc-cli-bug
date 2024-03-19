@@ -1,0 +1,1 @@
+# swc-cli-bug
