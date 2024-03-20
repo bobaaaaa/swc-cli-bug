@@ -1,6 +1,7 @@
 # `@swc/cli` timing regression
 
 - Node20 + npm
+- swc 1.4.8 (latest)
 - GitHub Action timings
 - looks similar on local computer (& yarn4)
 
@@ -10,8 +11,8 @@
 Successfully compiled: 2 files with swc (85.49ms)
 ```
 
-## `0.1.62`
+## `0.1.65`
 
 ```
-# TODO
+Successfully compiled: 2 files with swc (13.6ms)
 ```
