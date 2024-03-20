@@ -1,0 +1,13 @@
+{
+  "name": "swc-cli-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc src --out-dir 'dist'"
+  },
+  "dependencies": {
+    "@swc/cli": "0.3.10",
+    "@swc/core": "1.4.8"
+  }
+}

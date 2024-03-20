@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "test": ".*.ts$",
+    "sourceMaps": false,
+    "jsc": {
+      "target": "es2022",
+      "parser": {
+        "syntax": "typescript",
+        "tsx": false,
+        "decorators": false,
+        "dynamicImport": false
+      },
+      "externalHelpers": false,
+      "loose": false,
+      "minify": {
+        "compress": false,
+        "mangle": false
+      }
+    },
+    "module": {
+      "type": "commonjs"
+    },
+    "minify": false,
+    "isModule": true
+  }
